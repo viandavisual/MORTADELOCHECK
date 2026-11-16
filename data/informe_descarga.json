@@ -1,0 +1,1093 @@
+{
+  "total": 222,
+  "descargadas": 221,
+  "pendientes": [],
+  "errores_sesion": {},
+  "fuentes_descargadas_ultima_sesion": {
+    "1": {
+      "url": "covers/001.webp",
+      "tipo": "aportada_por_usuario"
+    },
+    "2": {
+      "url": "https://imgv2-1-f.scribdassets.com/img/document/661853987/original/66433e492a/1?v=1",
+      "tipo": "seleccionada",
+      "bytes": 210842
+    },
+    "3": {
+      "url": "https://m.media-amazon.com/images/I/71UxMcuYA3L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 174965
+    },
+    "4": {
+      "url": "https://m.media-amazon.com/images/I/61sZmM+-BkL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 150976
+    },
+    "5": {
+      "url": "https://m.media-amazon.com/images/I/91yc7ufLESL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 194261
+    },
+    "6": {
+      "url": "https://m.media-amazon.com/images/I/91UCCv0LC3L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 181861
+    },
+    "7": {
+      "url": "https://cloud10.todocoleccion.online/comics-ediciones-b/tc/2019/01/30/19/149229462.jpg",
+      "tipo": "seleccionada",
+      "bytes": 204996
+    },
+    "8": {
+      "url": "https://m.media-amazon.com/images/I/61q8iLF5jzL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 150885
+    },
+    "9": {
+      "url": "https://m.media-amazon.com/images/I/91Lb71EW9EL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 201404
+    },
+    "10": {
+      "url": "https://cloud10.todocoleccion.online/comics-ediciones-b/tc/2025/08/20/17/590277477_tcimg_665E0F40.jpg",
+      "tipo": "seleccionada",
+      "bytes": 511967
+    },
+    "11": {
+      "url": "https://imgv2-2-f.scribdassets.com/img/document/215083413/original/d905d51be2/1?v=1",
+      "tipo": "seleccionada",
+      "bytes": 177674
+    },
+    "12": {
+      "url": "https://m.media-amazon.com/images/I/610Q5H3VEvL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 135733
+    },
+    "13": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/013.jpg",
+      "tipo": "seleccionada",
+      "bytes": 707990
+    },
+    "14": {
+      "url": "https://m.media-amazon.com/images/I/81jG6LJyV1L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 166467
+    },
+    "15": {
+      "url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1759348866i/16131727.jpg",
+      "tipo": "seleccionada",
+      "bytes": 1077499
+    },
+    "16": {
+      "url": "https://m.media-amazon.com/images/I/91C3EwDW1DL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 200254
+    },
+    "18": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/018.jpg",
+      "tipo": "seleccionada",
+      "bytes": 569252
+    },
+    "19": {
+      "url": "https://m.media-amazon.com/images/I/91z5fcTQesS._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 224682
+    },
+    "20": {
+      "url": "https://m.media-amazon.com/images/I/91G+XsCuyUL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 181772
+    },
+    "21": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/21edicioenesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 834283
+    },
+    "22": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/22edicionesbtercera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 796420
+    },
+    "23": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/23edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 865135
+    },
+    "24": {
+      "url": "https://m.media-amazon.com/images/I/81coJxlECJL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 151523
+    },
+    "25": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/025.jpg",
+      "tipo": "seleccionada",
+      "bytes": 465752
+    },
+    "26": {
+      "url": "covers/026.webp",
+      "tipo": "aportada_por_usuario"
+    },
+    "27": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/027.jpg",
+      "tipo": "seleccionada",
+      "bytes": 381618
+    },
+    "28": {
+      "url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1742898178i/29619156.jpg",
+      "tipo": "seleccionada",
+      "bytes": 1075308
+    },
+    "29": {
+      "url": "https://m.media-amazon.com/images/I/91Zxthkb88L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 180417
+    },
+    "30": {
+      "url": "https://m.media-amazon.com/images/I/81pUfhZ9EfL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 177097
+    },
+    "31": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/d/a/31edicionesbsegunda.jpg",
+      "tipo": "seleccionada",
+      "bytes": 895359
+    },
+    "32": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/32edicinesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 842374
+    },
+    "33": {
+      "url": "https://m.media-amazon.com/images/I/91F1-krnkRL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 178083
+    },
+    "34": {
+      "url": "https://m.media-amazon.com/images/I/91-bX42ZBwL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 205025
+    },
+    "35": {
+      "url": "https://m.media-amazon.com/images/I/81IuDU7YFaL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 168723
+    },
+    "36": {
+      "url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1741853181i/16139119.jpg",
+      "tipo": "seleccionada",
+      "bytes": 1172617
+    },
+    "37": {
+      "url": "https://m.media-amazon.com/images/I/81MpQkbs51L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 170448
+    },
+    "38": {
+      "url": "https://m.media-amazon.com/images/I/911Id+d6EOL._AC_UF894,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 179786
+    },
+    "39": {
+      "url": "https://m.media-amazon.com/images/I/81DnLpW2UnL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 176853
+    },
+    "40": {
+      "url": "covers/040.webp",
+      "tipo": "aportada_por_usuario"
+    },
+    "41": {
+      "url": "covers/041.webp",
+      "tipo": "aportada_por_usuario"
+    },
+    "42": {
+      "url": "https://m.media-amazon.com/images/I/91KNnMx2aML._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 188382
+    },
+    "43": {
+      "url": "https://m.media-amazon.com/images/I/91nNh992PXL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 194815
+    },
+    "44": {
+      "url": "https://m.media-amazon.com/images/I/91kIS-6f+VL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 173774
+    },
+    "45": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/45edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 932110
+    },
+    "46": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/046.jpg",
+      "tipo": "seleccionada",
+      "bytes": 511372
+    },
+    "47": {
+      "url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1779317250i/17310369.jpg",
+      "tipo": "seleccionada",
+      "bytes": 1246794
+    },
+    "48": {
+      "url": "https://m.media-amazon.com/images/I/815l+fTkTPL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 172845
+    },
+    "49": {
+      "url": "https://m.media-amazon.com/images/I/91vFQH-8gbL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 201469
+    },
+    "50": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/050.jpg",
+      "tipo": "seleccionada",
+      "bytes": 464556
+    },
+    "51": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/51edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 858440
+    },
+    "52": {
+      "url": "https://media.elboletin.cc/914224-1.jpg",
+      "tipo": "seleccionada",
+      "bytes": 126489
+    },
+    "53": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/053.jpg",
+      "tipo": "seleccionada",
+      "bytes": 312372
+    },
+    "54": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/054.jpg",
+      "tipo": "seleccionada",
+      "bytes": 236015
+    },
+    "55": {
+      "url": "https://m.media-amazon.com/images/I/913gtCVVoYL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 188550
+    },
+    "56": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/056.jpg",
+      "tipo": "seleccionada",
+      "bytes": 485973
+    },
+    "58": {
+      "url": "https://m.media-amazon.com/images/I/51jq+311JvL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 120737
+    },
+    "59": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/059.jpg",
+      "tipo": "seleccionada",
+      "bytes": 299099
+    },
+    "60": {
+      "url": "https://cloud10.todocoleccion.online/comics-ediciones-b/tc/2016/10/07/17/62071412.jpg",
+      "tipo": "seleccionada",
+      "bytes": 203274
+    },
+    "62": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/062.jpg",
+      "tipo": "seleccionada",
+      "bytes": 432176
+    },
+    "63": {
+      "url": "https://m.media-amazon.com/images/I/91K3MP51m6L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 196731
+    },
+    "64": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/064.jpg",
+      "tipo": "seleccionada",
+      "bytes": 480586
+    },
+    "65": {
+      "url": "https://imgv2-1-f.scribdassets.com/img/document/277022369/original/4502a51a1e/1?v=1",
+      "tipo": "seleccionada",
+      "bytes": 206340
+    },
+    "66": {
+      "url": "https://m.media-amazon.com/images/I/91u0rpwMitL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 182305
+    },
+    "67": {
+      "url": "https://m.media-amazon.com/images/I/91sVbA8X0DL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 186367
+    },
+    "68": {
+      "url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1740669190i/29619476.jpg",
+      "tipo": "seleccionada",
+      "bytes": 1851205
+    },
+    "69": {
+      "url": "https://m.media-amazon.com/images/I/51fZtf74H3L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 114076
+    },
+    "70": {
+      "url": "https://m.media-amazon.com/images/I/91F7TpDzXqL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 181135
+    },
+    "71": {
+      "url": "https://m.media-amazon.com/images/I/91lQsoCrBDL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 173169
+    },
+    "72": {
+      "url": "https://m.media-amazon.com/images/I/81tJ24BYoqL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 165013
+    },
+    "73": {
+      "url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1741003728i/16067354.jpg",
+      "tipo": "seleccionada",
+      "bytes": 1244153
+    },
+    "74": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/74edicionesbtercera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 851117
+    },
+    "75": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/75edicionesbtercera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 879898
+    },
+    "76": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/d/a/76edicionesbsegunda.jpg",
+      "tipo": "seleccionada",
+      "bytes": 998270
+    },
+    "77": {
+      "url": "https://m.media-amazon.com/images/I/9184JZQRhrL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 188194
+    },
+    "78": {
+      "url": "https://cloud10.todocoleccion.online/comics-ediciones-b/tc/2026/03/27/08/660005259.jpg",
+      "tipo": "seleccionada",
+      "bytes": 246712
+    },
+    "79": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/79edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 887049
+    },
+    "80": {
+      "url": "https://www.universal-comics.com/imagenes/poridentidad?identidad=d58df720-ad2f-42ff-80f8-9e0a86860cb1&ancho=&alto=",
+      "tipo": "seleccionada",
+      "bytes": 139543
+    },
+    "81": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/d/a/81edicionesbsegunda.jpg",
+      "tipo": "seleccionada",
+      "bytes": 892606
+    },
+    "82": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/082.jpg",
+      "tipo": "seleccionada",
+      "bytes": 459183
+    },
+    "83": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/083.jpg",
+      "tipo": "seleccionada",
+      "bytes": 358862
+    },
+    "84": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/084.jpg",
+      "tipo": "seleccionada",
+      "bytes": 179580
+    },
+    "85": {
+      "url": "https://m.media-amazon.com/images/I/81BLx4w4jmL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 187841
+    },
+    "86": {
+      "url": "https://cloud10.todocoleccion.online/comics-ediciones-b/tc/2023/03/25/20/401909149.jpg",
+      "tipo": "seleccionada",
+      "bytes": 211712
+    },
+    "87": {
+      "url": "https://cloud10.todocoleccion.online/comics-ediciones-b/tc/2026/03/27/08/660006094.jpg",
+      "tipo": "seleccionada",
+      "bytes": 230482
+    },
+    "88": {
+      "url": "https://m.media-amazon.com/images/I/91ECuxPGd7L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 197403
+    },
+    "89": {
+      "url": "https://m.media-amazon.com/images/I/9105-ogrlnL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 174505
+    },
+    "90": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/90edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 911153
+    },
+    "91": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/91edicionesbtercera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 904736
+    },
+    "92": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/092.jpg",
+      "tipo": "seleccionada",
+      "bytes": 466078
+    },
+    "93": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/93edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 898589
+    },
+    "94": {
+      "url": "https://ellibrotecnico.com/imagenes_grandes/9788402/978840242478.webp",
+      "tipo": "seleccionada",
+      "bytes": 94974
+    },
+    "95": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/d/a/95edicionesbsegunda.jpg",
+      "tipo": "seleccionada",
+      "bytes": 911377
+    },
+    "96": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/096.jpg",
+      "tipo": "seleccionada",
+      "bytes": 349198
+    },
+    "97": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/97edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 817574
+    },
+    "98": {
+      "url": "https://m.media-amazon.com/images/I/A1PMGzsVCjL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 211771
+    },
+    "99": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/099.jpg",
+      "tipo": "seleccionada",
+      "bytes": 186604
+    },
+    "100": {
+      "url": "https://m.media-amazon.com/images/I/81wlYh9G3sL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 157130
+    },
+    "101": {
+      "url": "https://m.media-amazon.com/images/I/A1fZCNtGI0L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 186761
+    },
+    "102": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/102edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 848285
+    },
+    "104": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/104.jpg",
+      "tipo": "seleccionada",
+      "bytes": 396265
+    },
+    "105": {
+      "url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1740227372i/35451155.jpg",
+      "tipo": "seleccionada",
+      "bytes": 893171
+    },
+    "106": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/106edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 800562
+    },
+    "107": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/107.jpg",
+      "tipo": "seleccionada",
+      "bytes": 246809
+    },
+    "108": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/108edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 906863
+    },
+    "109": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/t/a/109edicionesbquinta.jpg",
+      "tipo": "seleccionada",
+      "bytes": 1167908
+    },
+    "110": {
+      "url": "https://www.akiracomics.com/imagenes/poridentidad?identidad=7cee95c7-25cd-4562-a41f-f98f5a03c65c&ancho=&alto=",
+      "tipo": "seleccionada",
+      "bytes": 147614
+    },
+    "111": {
+      "url": "https://m.media-amazon.com/images/I/91UdG1BcBiL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 167994
+    },
+    "112": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/112.jpg",
+      "tipo": "seleccionada",
+      "bytes": 471396
+    },
+    "113": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/113.jpg",
+      "tipo": "seleccionada",
+      "bytes": 389872
+    },
+    "114": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/114edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 871989
+    },
+    "115": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/115edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 872483
+    },
+    "116": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/116.jpg",
+      "tipo": "seleccionada",
+      "bytes": 610776
+    },
+    "117": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/d/a/117edicionesbsegunda.jpg",
+      "tipo": "seleccionada",
+      "bytes": 878594
+    },
+    "118": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/118edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 904861
+    },
+    "119": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/d/a/119edicionesbsegunda.jpg",
+      "tipo": "seleccionada",
+      "bytes": 831036
+    },
+    "120": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/120.jpg",
+      "tipo": "seleccionada",
+      "bytes": 465108
+    },
+    "121": {
+      "url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS_6-mn6MzmyLxehUa74rXlb7yvG7jVdVBCPhi3ZDYK2SmNzCxH",
+      "tipo": "seleccionada",
+      "bytes": 77613
+    },
+    "122": {
+      "url": "https://m.media-amazon.com/images/I/61BJK729GvL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 162282
+    },
+    "123": {
+      "url": "https://m.media-amazon.com/images/I/91aJKYQiKIL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 186892
+    },
+    "124": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/124bedicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 897918
+    },
+    "125": {
+      "url": "https://cloud10.todocoleccion.online/comics-ediciones-b/tc/2011/12/12/29658459.jpg",
+      "tipo": "seleccionada",
+      "bytes": 118709
+    },
+    "126": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/126.jpg",
+      "tipo": "seleccionada",
+      "bytes": 142142
+    },
+    "127": {
+      "url": "https://m.media-amazon.com/images/I/710emqSdFUL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 166911
+    },
+    "128": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/128.jpg",
+      "tipo": "seleccionada",
+      "bytes": 497391
+    },
+    "129": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/129.jpg",
+      "tipo": "seleccionada",
+      "bytes": 315009
+    },
+    "130": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/130.jpg",
+      "tipo": "seleccionada",
+      "bytes": 407092
+    },
+    "131": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/131.jpg",
+      "tipo": "seleccionada",
+      "bytes": 385347
+    },
+    "132": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/132.jpg",
+      "tipo": "seleccionada",
+      "bytes": 392450
+    },
+    "133": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/133.jpg",
+      "tipo": "seleccionada",
+      "bytes": 428382
+    },
+    "134": {
+      "url": "https://m.media-amazon.com/images/I/61V7y2DdfQL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 153049
+    },
+    "135": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/135.jpg",
+      "tipo": "seleccionada",
+      "bytes": 456519
+    },
+    "136": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/136.jpg",
+      "tipo": "seleccionada",
+      "bytes": 353450
+    },
+    "137": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/137.jpg",
+      "tipo": "seleccionada",
+      "bytes": 400744
+    },
+    "138": {
+      "url": "https://m.media-amazon.com/images/I/911IHEbJdUL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 156879
+    },
+    "139": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/139.jpg",
+      "tipo": "seleccionada",
+      "bytes": 359547
+    },
+    "140": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/140.jpg",
+      "tipo": "seleccionada",
+      "bytes": 388220
+    },
+    "141": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/141.jpg",
+      "tipo": "seleccionada",
+      "bytes": 387773
+    },
+    "142": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/142.jpg",
+      "tipo": "seleccionada",
+      "bytes": 420326
+    },
+    "143": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/143.jpg",
+      "tipo": "seleccionada",
+      "bytes": 436060
+    },
+    "144": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/144.jpg",
+      "tipo": "seleccionada",
+      "bytes": 392018
+    },
+    "145": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/145.jpg",
+      "tipo": "seleccionada",
+      "bytes": 396903
+    },
+    "146": {
+      "url": "https://m.media-amazon.com/images/I/91f8s8NeIUL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 214022
+    },
+    "147": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/147.jpg",
+      "tipo": "seleccionada",
+      "bytes": 392499
+    },
+    "148": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/148edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 967455
+    },
+    "149": {
+      "url": "covers/149.webp",
+      "tipo": "aportada_por_usuario"
+    },
+    "150": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/150.jpg",
+      "tipo": "seleccionada",
+      "bytes": 365645
+    },
+    "151": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/151.jpg",
+      "tipo": "seleccionada",
+      "bytes": 417638
+    },
+    "152": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/152.jpg",
+      "tipo": "seleccionada",
+      "bytes": 371312
+    },
+    "153": {
+      "url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11163/111637923/8647174-mortadelo_153.jpg",
+      "tipo": "seleccionada",
+      "bytes": 339213
+    },
+    "154": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/154.jpg",
+      "tipo": "seleccionada",
+      "bytes": 415097
+    },
+    "155": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/155.jpg",
+      "tipo": "seleccionada",
+      "bytes": 263813
+    },
+    "156": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/156.jpg",
+      "tipo": "seleccionada",
+      "bytes": 412059
+    },
+    "157": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/157.jpg",
+      "tipo": "seleccionada",
+      "bytes": 394798
+    },
+    "158": {
+      "url": "covers/158.webp",
+      "tipo": "aportada_por_usuario"
+    },
+    "159": {
+      "url": "covers/159.webp",
+      "tipo": "aportada_por_usuario"
+    },
+    "160": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/160.jpg",
+      "tipo": "seleccionada",
+      "bytes": 436382
+    },
+    "161": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/161.jpg",
+      "tipo": "seleccionada",
+      "bytes": 375878
+    },
+    "162": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/162.jpg",
+      "tipo": "seleccionada",
+      "bytes": 441257
+    },
+    "163": {
+      "url": "https://m.media-amazon.com/images/I/81gz+76-LXL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 161837
+    },
+    "164": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/164edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 935769
+    },
+    "165": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/165edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 964719
+    },
+    "166": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/166.jpg",
+      "tipo": "seleccionada",
+      "bytes": 394240
+    },
+    "167": {
+      "url": "https://m.media-amazon.com/images/I/91exG+tEf6L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 218921
+    },
+    "168": {
+      "url": "https://m.media-amazon.com/images/I/A1DpB1jFaML._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 208531
+    },
+    "169": {
+      "url": "https://comicvine.gamespot.com/a/uploads/scale_medium/11163/111637923/8649323-mortadelo_169.jpg",
+      "tipo": "seleccionada",
+      "bytes": 291306
+    },
+    "170": {
+      "url": "https://m.media-amazon.com/images/I/61nsSe7lH-L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 167019
+    },
+    "171": {
+      "url": "https://m.media-amazon.com/images/I/61f6o5-szxL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 157980
+    },
+    "172": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/172edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 964709
+    },
+    "173": {
+      "url": "https://m.media-amazon.com/images/I/A1DTrxQfSmL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 221862
+    },
+    "174": {
+      "url": "https://m.media-amazon.com/images/I/91bdAoEcPdL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 180492
+    },
+    "176": {
+      "url": "https://m.media-amazon.com/images/I/717B-YbCr9L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 168909
+    },
+    "177": {
+      "url": "https://m.media-amazon.com/images/I/61A9YAY6aGL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 153576
+    },
+    "178": {
+      "url": "https://m.media-amazon.com/images/I/81qBEA0AkOL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 213056
+    },
+    "179": {
+      "url": "https://m.media-amazon.com/images/I/71+qLW5bhWL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 176022
+    },
+    "182": {
+      "url": "https://tienda.dreamers.es/imagenes/378562.jpg",
+      "tipo": "seleccionada",
+      "bytes": 347210
+    },
+    "183": {
+      "url": "https://m.media-amazon.com/images/I/91edAJyE0EL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 194437
+    },
+    "184": {
+      "url": "https://m.media-amazon.com/images/I/91oRK1bDoVL.jpg",
+      "tipo": "seleccionada",
+      "bytes": 965500
+    },
+    "185": {
+      "url": "https://m.media-amazon.com/images/I/91srtAhTjGL._UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 203320
+    },
+    "186": {
+      "url": "https://m.media-amazon.com/images/I/8104+PzAaHS._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 191468
+    },
+    "187": {
+      "url": "https://m.media-amazon.com/images/I/91BfPWP5L2L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 198228
+    },
+    "188": {
+      "url": "https://m.media-amazon.com/images/I/91BgmzM5ILL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 193131
+    },
+    "189": {
+      "url": "https://m.media-amazon.com/images/I/A16BdpAivPL._UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 202923
+    },
+    "190": {
+      "url": "https://m.media-amazon.com/images/I/61WI3OrAVTL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 167625
+    },
+    "192": {
+      "url": "https://www.tebeosfera.com/T3content/img/T3_numeros/r/a/192edicionesbprimera.jpg",
+      "tipo": "seleccionada",
+      "bytes": 873983
+    },
+    "193": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/193.jpg",
+      "tipo": "seleccionada",
+      "bytes": 533068
+    },
+    "194": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/194.jpg",
+      "tipo": "seleccionada",
+      "bytes": 850318
+    },
+    "195": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/195.jpg",
+      "tipo": "seleccionada",
+      "bytes": 595684
+    },
+    "196": {
+      "url": "https://www.mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/196.jpg",
+      "tipo": "seleccionada",
+      "bytes": 549292
+    },
+    "197": {
+      "url": "https://mortadelo-filemon.es/images/photos/Portadas/OLE/OLE_EdicionesB_3a_edicion/197.jpg",
+      "tipo": "seleccionada",
+      "bytes": 354699
+    },
+    "198": {
+      "url": "https://m.media-amazon.com/images/I/91Fma5cDorL._UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 209236
+    },
+    "199": {
+      "url": "https://m.media-amazon.com/images/I/616Elaj6gWL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 169019
+    },
+    "200": {
+      "url": "https://m.media-amazon.com/images/I/91-gOCxVd+L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 201497
+    },
+    "201": {
+      "url": "https://m.media-amazon.com/images/I/81ODzdAAS5L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 207804
+    },
+    "202": {
+      "url": "https://m.media-amazon.com/images/I/81bU3Ho+FrS._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 185142
+    },
+    "203": {
+      "url": "https://m.media-amazon.com/images/I/91uCw83EPKL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 191788
+    },
+    "204": {
+      "url": "https://m.media-amazon.com/images/I/81GHzIYjGhL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 216758
+    },
+    "205": {
+      "url": "https://m.media-amazon.com/images/I/91EGS6Hkd7L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 200619
+    },
+    "206": {
+      "url": "https://m.media-amazon.com/images/I/A1wuZWfAvnL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 238080
+    },
+    "208": {
+      "url": "https://m.media-amazon.com/images/I/91z2pdiURqL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 176844
+    },
+    "209": {
+      "url": "https://m.media-amazon.com/images/I/81Mi8dB+lJL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 214032
+    },
+    "210": {
+      "url": "covers/210.webp",
+      "tipo": "aportada_por_usuario"
+    },
+    "211": {
+      "url": "https://m.media-amazon.com/images/I/911kVy3W1PL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 207472
+    },
+    "212": {
+      "url": "https://m.media-amazon.com/images/I/91tV91aSRcL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 218192
+    },
+    "213": {
+      "url": "https://m.media-amazon.com/images/I/91zo6a8xMkL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 220925
+    },
+    "214": {
+      "url": "covers/214.webp",
+      "tipo": "aportada_por_usuario"
+    },
+    "216": {
+      "url": "https://m.media-amazon.com/images/I/91T6mv6BAVL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 217337
+    },
+    "218": {
+      "url": "https://m.media-amazon.com/images/I/91amZYreU4L._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 236638
+    },
+    "219": {
+      "url": "covers/219.webp",
+      "tipo": "aportada_por_usuario"
+    },
+    "220": {
+      "url": "https://m.media-amazon.com/images/I/91fYqPgrIUL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 226895
+    },
+    "221": {
+      "url": "https://m.media-amazon.com/images/I/91o9ZgPCoLL._AC_UF1000,1000_QL80_.jpg",
+      "tipo": "seleccionada",
+      "bytes": 195335
+    },
+    "17": {
+      "url": "archivo_seleccionado_manual",
+      "tipo": "manual"
+    },
+    "57": {
+      "url": "archivo_seleccionado_manual",
+      "tipo": "manual"
+    },
+    "61": {
+      "url": "archivo_seleccionado_manual",
+      "tipo": "manual"
+    },
+    "103": {
+      "url": "archivo_seleccionado_manual",
+      "tipo": "manual"
+    },
+    "175": {
+      "url": "archivo_seleccionado_manual",
+      "tipo": "manual"
+    },
+    "180": {
+      "url": "archivo_seleccionado_manual",
+      "tipo": "manual"
+    },
+    "181": {
+      "url": "archivo_seleccionado_manual",
+      "tipo": "manual"
+    },
+    "191": {
+      "url": "archivo_seleccionado_manual",
+      "tipo": "manual"
+    },
+    "207": {
+      "url": "archivo_seleccionado_manual",
+      "tipo": "manual"
+    },
+    "215": {
+      "url": "archivo_seleccionado_manual",
+      "tipo": "manual"
+    },
+    "217": {
+      "url": "archivo_seleccionado_manual",
+      "tipo": "manual"
+    }
+  },
+  "nota": "Las imágenes recuperadas de sitios web deben usarse conforme a sus derechos y condiciones. La verificación de URL no asegura identidad editorial."
+}
