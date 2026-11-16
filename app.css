@@ -404,3 +404,10 @@ body.mc-progress-active.mc-episodes-open #userPane .illustration-space.compact{m
  .bottom button img{height:28px;}
  .episodes-panel summary{min-height:24px;padding:3px 9px;font-size:10px;}
 }
+
+/* v5.12 — descarga directa APK firmada. */
+.apk-download-bubble{display:inline-flex;align-items:center;justify-content:center;min-height:33px;gap:5px;padding:5px 12px;border:2px solid #211a12;border-radius:999px;background:#f0a52d;color:#25190a;text-decoration:none;font:900 11px/1 Arial,sans-serif;white-space:nowrap;box-shadow:0 2px 0 #8a6e36;touch-action:manipulation}
+.apk-download-bubble:hover{background:#f9bd50}
+.apk-download-bubble:focus-visible{outline:3px solid #2875cb;outline-offset:3px}
+.progress-bubbles{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px}
+@media(max-width:450px){.apk-download-bubble{font-size:10px;padding:5px 9px}}

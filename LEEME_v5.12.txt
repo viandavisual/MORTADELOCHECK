@@ -1,0 +1,11 @@
+MORTADELO CHECK v5.12 — PATCH SOBRE v5.11
+
+1. Descomprime este patch dentro de la carpeta v5.11 existente y acepta sustituir index.html, app.css y sw.js.
+2. En tu ordenador busca RESULTADO\MORTADELO_CHECK.apk dentro de MORTADELO_APK_FIRMADOR_v1.
+3. Copia ESA APK FIRMADA a downloads\MORTADELO_CHECK.apk dentro de la carpeta de MORTADELO CHECK. NO uses MORTADELO CHECK-unsigned.apk.
+4. Publica los archivos actualizados y la APK en el repositorio MORTADELOCHECK en GitHub Pages. Debe poder abrirse: https://viandavisual.github.io/MORTADELOCHECK/downloads/MORTADELO_CHECK.apk
+5. Entra a MI PROGRESO desde el Android y pulsa APK ANDROID. Android puede pedir permiso para instalar archivos de esta procedencia.
+
+El parche NO incluye la APK firmada: fue generada localmente en tu PC y no fue enviada a ChatGPT. NO subas claves privadas, keystores o contraseñas al repositorio.
+
+La APK usa la misma web publicada, sin copiar los 222 comics al instalador. El progreso puede comportarse distinto entre Chrome, PWA y APK: haz una prueba antes de depender del mismo.
