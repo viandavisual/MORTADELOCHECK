@@ -134,6 +134,7 @@ function setActiveNav(id){
   ['navBooks','navUser','navList'].forEach(n=>$(n)?.classList.toggle('active', n===id));
 }
 function showPane(which){
+  if(which!=='user' && $('episodesPanel')?.open){ $('episodesPanel').open=false; document.body.classList.remove('mc-episodes-open'); }
   if(!$('modal')?.classList.contains('hidden')) closeModal();
   if(moviola.open) closeMoviola();
   activePane=which;
@@ -163,6 +164,45 @@ function updateSoundBtn(){ const st=$('soundState'); if(st) st.textContent = mut
 $('soundBtn')?.addEventListener('click', async()=>{ muted=!muted; localStorage.setItem(soundKey, muted?'1':'0'); if(muted){ audio.pause(); } else { await tryMusic(); } updateSoundBtn(); });
 $('enterBtn')?.addEventListener('click', ()=>{ $('welcome')?.classList.add('hidden'); $('shell')?.classList.remove('hidden'); showPane('books'); tryMusic(); });
 updateSoundBtn();
+
+// CAPÍTULOS: reproductor de la playlist proporcionada y listado de referencia de la serie.
+const episodesTitles=[
+ 'El sulfato atómico', 'El caso de los gamberros', 'Magín, el mago',
+ 'La máquina de copiar gente', 'En busca del antídoto', 'El contrabando',
+ 'Los cacharros majaretas', 'La gallina de los huevos de oro', 'La elasticina',
+ 'Casos aéreos', 'El otro yo del profesor Bacterio', 'El caso de Billy el Horrendo',
+ 'Los inventos del profesor Bacterio', 'El caso de los diamantes', 'El caso de los sobornos',
+ 'Testigo de cargo', 'Misión de perros', 'El balón catastrófico',
+ 'Los superhéroes del profesor Bacterio', 'El caso de los secuestradores',
+ 'El caso de la estatua de la Libertad', 'Safari callejero', 'Hay un traidor en la T.I.A.',
+ 'La venganza de Ten-Go-Pis', 'La brigada bichera', 'El ansia de poder'
+];
+const episodesPanel=$('episodesPanel');
+const episodesList=$('episodesList');
+if(episodesList){
+  for(const title of episodesTitles){
+    const li=document.createElement('li'); li.textContent=title; episodesList.append(li);
+  }
+}
+if(episodesPanel){
+ episodesPanel.addEventListener('toggle',()=>{
+  const open=episodesPanel.open;
+  document.body.classList.toggle('mc-episodes-open',open && activePane==='user');
+  const mount=$('episodesVideoMount');
+  if(!mount) return;
+  mount.replaceChildren();
+  if(open){
+   const frame=document.createElement('iframe');
+   frame.src='https://www.youtube-nocookie.com/embed/videoseries?list=PLmdLOXt-r6Y_Qa1SXtnTxyg8sPMTQoOem&rel=0';
+   frame.title='Mortadelo y Filemón - Lista de reproducción de 26 capítulos';
+   frame.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+   frame.allowFullscreen=true;
+   frame.referrerPolicy='strict-origin-when-cross-origin';
+   frame.loading='lazy';
+   mount.append(frame);
+  }
+ });
+}
 
 // MOVIOLA v5.6: PUSH horizontal. Por defecto sale por la derecha y entra por la izquierda.
 const moviola={open:false,index:null,timer:null,crossTimer:null,holdMs:3000,pushMs:1000,epoch:0,paused:false,transitioning:false};

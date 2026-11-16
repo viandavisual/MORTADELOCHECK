@@ -369,3 +369,38 @@ body.mc-progress-active #userPane .illustration-space.compact img{
 .install-confirm{border:2px solid #261b12;border-radius:12px;background:#f5c846;padding:12px 32px;font-size:14px;font-weight:900}
 .install-fallback{font-size:12px;color:#755e3f;margin:12px 0 0;font-weight:700}
 @media(max-width:430px){.progress-bubbles{gap:6px}.install-bubble{font-size:10px;padding:5px 10px}}
+
+
+/* MORTADELO CHECK v5.11 - nuevo footer ilustrado y capítulos desplegables */
+.bottom{min-height:var(--mc-footer-height,70px);align-items:center;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;padding:5px 8px calc(7px + env(safe-area-inset-bottom));}
+.bottom button{display:flex;justify-content:center;align-items:center;min-width:0;min-height:46px;padding:5px 7px;border-radius:10px;overflow:hidden;background:transparent;}
+.bottom button img{display:block;width:100%;max-width:235px;height:33px;object-fit:contain;object-position:center;pointer-events:none;}
+.bottom button.active{background:#ffe2a0;}
+.bottom button:focus-visible{outline:3px solid #327ccc;outline-offset:0;}
+.episodes-panel{margin:0;border:2px solid #241a10;border-radius:12px;background:#fff0be;overflow:hidden;min-width:0;flex-shrink:0;}
+.episodes-panel summary{display:flex;align-items:center;justify-content:space-between;cursor:pointer;list-style:none;min-height:25px;padding:3px 12px;color:#24190d;font:900 11px/1.2 Arial,Helvetica,sans-serif;letter-spacing:.4px;}
+.episodes-panel summary::-webkit-details-marker{display:none;}
+.episodes-chevron{font-size:18px;transition:transform .2s ease;line-height:1;}
+.episodes-panel[open] .episodes-chevron{transform:rotate(180deg);}
+.episodes-content{border-top:1px solid #e1c689;padding:10px;}
+.episodes-video{aspect-ratio:16/9;border-radius:8px;background:#221a15;overflow:hidden;}
+#episodesVideoMount,#episodesVideoMount iframe{display:block;width:100%;height:100%;border:0;}
+#episodesVideoMount>p{margin:0;color:white;padding:20px;font-size:12px;}
+.episodes-heading{font:900 15px Arial,sans-serif;margin:13px 0 6px;text-align:center;}
+.episodes-list{margin:0;padding:4px 8px 6px 33px;max-height:230px;overflow-y:auto;border:1px solid #ecd3a0;background:#fffcf3;border-radius:9px;font:800 12px/1.5 Nunito,Arial,sans-serif;}
+.episodes-list li{padding:3px 2px;border-bottom:1px solid #eee3cd;}
+.episodes-list li:last-child{border:0;}
+.episodes-notice{margin:9px 3px 6px;color:#816644;font:700 10px/1.4 Nunito,Arial,sans-serif;}
+.episodes-youtube-link{display:block;text-align:center;font:900 12px Arial,sans-serif;background:#f6d04f;color:#221a11;border:2px solid #221a11;border-radius:9px;padding:10px;text-decoration:none;}
+/* En reposo respetamos el layout sin scroll; ampliado, solo se desplaza MI PROGRESO. */
+body.mc-progress-active #userPane .user-pane-wrap{grid-template-rows:auto auto minmax(0,1fr)!important;gap:7px!important;}
+body.mc-progress-active #userPane .episodes-panel{align-self:start;}
+body.mc-progress-active.mc-episodes-open #userPane{overflow-y:auto!important;overscroll-behavior:contain;scrollbar-width:thin;}
+body.mc-progress-active.mc-episodes-open #userPane .user-pane-wrap{height:auto!important;min-height:100%!important;grid-template-rows:auto auto auto!important;overflow:visible!important;}
+body.mc-progress-active.mc-episodes-open #userPane .illustration-space.compact{min-height:100px!important;height:auto!important;}
+@media(max-width:520px){
+ .bottom{gap:2px;padding:4px 5px calc(6px + env(safe-area-inset-bottom));}
+ .bottom button{min-height:42px;padding:4px 3px;}
+ .bottom button img{height:28px;}
+ .episodes-panel summary{min-height:24px;padding:3px 9px;font-size:10px;}
+}
