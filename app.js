@@ -297,7 +297,7 @@ $('moviolaPrev')?.addEventListener('click',()=>moviolaStep(-1));
 $('moviolaNextBtn')?.addEventListener('click',()=>moviolaStep(1));
 $('moviolaCheck')?.addEventListener('click',()=>{if(moviola.index!==null)toggleOwned(catalog[moviola.index].numero)});
 document.addEventListener('keydown', e=>{
-  if(e.key==='Escape'){ if(!$('exportPreview').classList.contains('hidden'))closeExportPreview(); else if(moviola.open) closeMoviola(); else closeModal(); }
+  if(e.key==='Escape'){ if(!$('installOverlay').classList.contains('hidden'))closeInstallHelp(); else if(!$('exportPreview').classList.contains('hidden'))closeExportPreview(); else if(moviola.open) closeMoviola(); else closeModal(); }
   if(moviola.open){
     if(e.key==='ArrowLeft'){ e.preventDefault(); moviolaStep(-1); }
     else if(e.key==='ArrowRight'){ e.preventDefault(); moviolaStep(1); }
@@ -432,21 +432,6 @@ $('exportDownload').addEventListener('click',()=>{
  directDownload(exportState.dataUrl,exportState.name);
  toast('PNG descargado o preparado para guardar');
 });
-$('exportShare').addEventListener('click',async()=>{
- if(!exportState) return;
- const st=exportState;
- try{
-  const response=await fetch(st.dataUrl);
-  const blob=await response.blob();
-  const file=new File([blob],st.name,{type:'image/png'});
-  if(navigator.share && (!navigator.canShare || navigator.canShare({files:[file]}))){
-   await navigator.share({files:[file],title:'MORTADELO CHECK - MI LISTADO'});
-   return;
-  }
- }catch(err){if(err?.name==='AbortError')return; console.warn('No se pudo compartir:',err)}
- directDownload(st.dataUrl,st.name);
- toast('Tu navegador ha descargado el PNG');
-});
 $('saveListPng').addEventListener('click',async()=>{
  const btn=$('saveListPng');const before=btn.textContent;
  btn.disabled=true;btn.textContent='PREPARANDO IMAGEN…';
@@ -459,11 +444,82 @@ $('saveListPng').addEventListener('click',async()=>{
   const preview=$('exportPreviewImage'); preview.src=dataUrl;
   $('exportPreview').classList.remove('hidden');
   document.body.style.overflow='hidden';
-  const canShare=!!navigator.share && !!window.File;
-  $('exportShare').textContent=canShare?'↗ COMPARTIR':'⬇ DESCARGAR ALTERNATIVA';
  }catch(err){console.error('Error exportando imagen:',err);toast('No se pudo generar el PNG. Comprueba la consola.');}
  finally{btn.disabled=false;btn.textContent=before}
 });
+
+// INSTALACIÓN PWA: botón visible sin cuentas ni pasos técnicos.
+let deferredInstallPrompt=null;
+let installInProgress=false;
+const installedNow=()=>window.matchMedia('(display-mode: standalone)').matches ||
+                         window.matchMedia('(display-mode: minimal-ui)').matches ||
+                         !!window.navigator.standalone;
+function updateInstallButton(){
+ const btn=$('installBtn');if(!btn)return;
+ const done=installedNow();
+ btn.disabled=done;
+ btn.classList.toggle('is-installed',done);
+ btn.innerHTML=done?'<span aria-hidden="true">✓</span> INSTALADA':'<span aria-hidden="true">⬇</span> INSTALAR';
+ btn.setAttribute('aria-label',done?'Aplicación ya instalada':'Instalar MORTADELO CHECK');
+}
+window.addEventListener('beforeinstallprompt',event=>{
+ event.preventDefault();
+ deferredInstallPrompt=event;
+ updateInstallButton();
+});
+window.addEventListener('appinstalled',()=>{
+ deferredInstallPrompt=null;
+ updateInstallButton();
+ closeInstallHelp();
+ toast('MORTADELO CHECK instalada');
+});
+function closeInstallHelp(){
+ $('installOverlay').classList.add('hidden');
+ document.body.style.overflow='';
+}
+function showInstallHelp(){
+ const ua=navigator.userAgent||'';
+ const isIOS=/iPhone|iPad|iPod/i.test(ua)||(/Macintosh/i.test(ua)&&navigator.maxTouchPoints>1);
+ const android=/Android/i.test(ua);
+ const safari=/Safari/i.test(ua) && !/CriOS|FxiOS|EdgiOS|OPiOS/i.test(ua);
+ let msg='';
+ if(location.protocol==='file:'){
+   msg='Para instalarla, abre MORTADELO CHECK desde su dirección publicada en GitHub Pages (https://). Desde un archivo abierto con doble clic puedes usarla, pero no instalarla como aplicación.';
+ } else if(installedNow()){
+   msg='¡Ya estás utilizando MORTADELO CHECK como aplicación instalada!';
+ } else if(isIOS){
+   msg=safari
+     ? 'Pulsa el botón Compartir del navegador (el cuadrado con una flecha) y elige «Añadir a pantalla de inicio». Después pulsa «Añadir».'
+     : 'Abre este mismo enlace en Safari. Allí pulsa Compartir y después «Añadir a pantalla de inicio».';
+ } else if(android){
+   msg='Abre el menú ⋮ del navegador y selecciona «Instalar aplicación» o «Añadir a pantalla de inicio». Después confirma.';
+ } else {
+   msg='En Chrome o Edge, abre el menú ⋮ y selecciona «Instalar MORTADELO CHECK» o «Instalar aplicación». También puede aparecer un icono de instalación a la derecha de la dirección web.';
+ }
+ $('installInstructions').textContent=msg;
+ $('installOverlay').classList.remove('hidden');
+ document.body.style.overflow='hidden';
+}
+$('installBtn').addEventListener('click',async()=>{
+ if(installedNow()){updateInstallButton();return;}
+ if(deferredInstallPrompt && !installInProgress){
+   installInProgress=true;
+   try{
+     const prompt=deferredInstallPrompt;
+     deferredInstallPrompt=null;
+     await prompt.prompt();
+     const choice=await prompt.userChoice;
+     if(choice?.outcome==='accepted')toast('Instalación solicitada');
+     else showInstallHelp();
+   }catch(err){console.warn('Instalación nativa no disponible:',err);showInstallHelp();}
+   finally{installInProgress=false;updateInstallButton();}
+ }else showInstallHelp();
+});
+$('installClose').addEventListener('click',closeInstallHelp);
+$('installAction').addEventListener('click',closeInstallHelp);
+$('installOverlay').addEventListener('click',event=>{if(event.target===$('installOverlay'))closeInstallHelp()});
+window.matchMedia('(display-mode: standalone)').addEventListener?.('change',updateInstallButton);
+updateInstallButton();
 
 Promise.resolve(window.MORTADELO_CATALOG).then(data=>{
   catalog=data.registros||[];
