@@ -1,0 +1,13 @@
+MORTADELO CHECK v3
+
+Incluye 222 portadas, MOVIOLA, MI LISTADO con TENGO/FALTAN y exportación PNG.
+El progreso se guarda automáticamente en este dispositivo (localStorage).
+No se utiliza Supabase, login, exportación ni importación de JSON.
+Se mantiene el identificador de PWA de la v2.1.
+Para instalar en móvil, publicar mediante HTTPS.
+
+
+v5.1: nuevo ratón e Ibáñez transparentes, visor fijo, título centrado, burbujas navegables y exportación PNG con recursos incrustados y vista previa.
+
+
+MORTADELO CHECK v5.4: encabezado con iconos sueltos (sin cajas), estado de sonido visible; visor de portada anclado a la parte superior del menu inferior; MI PROGRESO compacto; MOVIOLA con precarga y crossfade sin flashes negros. Se mantiene el almacenamiento local de la coleccion.
