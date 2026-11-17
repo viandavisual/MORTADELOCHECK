@@ -165,42 +165,88 @@ $('soundBtn')?.addEventListener('click', async()=>{ muted=!muted; localStorage.s
 $('enterBtn')?.addEventListener('click', ()=>{ $('welcome')?.classList.add('hidden'); $('shell')?.classList.remove('hidden'); showPane('books'); tryMusic(); });
 updateSoundBtn();
 
-// CAPÍTULOS: reproductor de la playlist proporcionada y listado de referencia de la serie.
-const episodesTitles=[
- 'El sulfato atómico', 'El caso de los gamberros', 'Magín, el mago',
- 'La máquina de copiar gente', 'En busca del antídoto', 'El contrabando',
- 'Los cacharros majaretas', 'La gallina de los huevos de oro', 'La elasticina',
- 'Casos aéreos', 'El otro yo del profesor Bacterio', 'El caso de Billy el Horrendo',
- 'Los inventos del profesor Bacterio', 'El caso de los diamantes', 'El caso de los sobornos',
- 'Testigo de cargo', 'Misión de perros', 'El balón catastrófico',
- 'Los superhéroes del profesor Bacterio', 'El caso de los secuestradores',
- 'El caso de la estatua de la Libertad', 'Safari callejero', 'Hay un traidor en la T.I.A.',
- 'La venganza de Ten-Go-Pis', 'La brigada bichera', 'El ansia de poder'
+// CAPÍTULOS v5.14 — listado completo de enlaces individuales proporcionados.
+const episodes=[
+ ['El sulfato atómico','QOCjNVYk54w'],
+ ['Magín, el mago','SWlf08mg_DM'],
+ ['El caso de los gamberros','3lr3R8Rx2Qs'],
+ ['El balón catastrófico','2rJZHzcRQZM'],
+ ['Los superhéroes del profesor Bacterio','Wl-wdgr1Cew'],
+ ['El caso de los secuestradores','b6h-EqnV3WA'],
+ ['El caso de los sobornos','cwMPD2H0sE8'],
+ ['Testigo de cargo','pGhZibt5k2Q'],
+ ['Misión de perros','imSsNvnwu2w'],
+ ['El caso de Billy el Horrendo','TQfaeZRPRMw'],
+ ['Los inventos del profesor Bacterio','f6MtImpq2r0'],
+ ['El caso de los diamantes','w2byiNTj71M'],
+ ['El caso de la estatua de la Libertad','-knNWoCWFYM'],
+ ['Safari callejero','qO7oqqu70tg'],
+ ['Hay un traidor en la T.I.A.','Es7FxivgTvA'],
+ ['La venganza de Ten-Go-Pis','ChB4OXqcldw'],
+ ['La brigada bichera','hHSIBDMlIDk'],
+ ['El ansia de poder','Q-hLi57SVH8'],
+ ['La gallina de los huevos de oro','G0O-y12rwmA'],
+ ['La elasticina','nNTPsL2HjaU'],
+ ['Casos aéreos','wa8_OoW2egc'],
+ ['El otro yo del profesor Bacterio','zLjMw6uvW1Y'],
+ ['La máquina de copiar gente','lU1_8QzBOdI'],
+ ['En busca del antídoto','5z8xZoOUN4g'],
+ ['El contrabando','XHPscW0q0vA'],
+ ['Los cacharros majaretas','gsNV7RPvFBk']
 ];
 const episodesPanel=$('episodesPanel');
 const episodesList=$('episodesList');
+const episodesMount=$('episodesVideoMount');
+let selectedEpisode=-1, previousInitialEpisode=-1;
+function episodeUrl(index,play){
+ const id=episodes[index][1];
+ return 'https://www.youtube-nocookie.com/embed/'+encodeURIComponent(id)+'?rel=0&playsinline=1'+(play?'&autoplay=1':'');
+}
+function selectEpisode(index,autoplay=false){
+ if(!episodesPanel?.open || !episodesMount || index<0 || index>=episodes.length)return;
+ selectedEpisode=index;
+ const [title,id]=episodes[index];
+ episodesList?.querySelectorAll('button[data-episode]').forEach(btn=>{
+   const active=Number(btn.dataset.episode)===index;
+   btn.classList.toggle('selected',active);
+   btn.setAttribute('aria-current',active?'true':'false');
+ });
+ episodesMount.replaceChildren(); // detiene el episodio anterior
+ const frame=document.createElement('iframe');
+ frame.src=episodeUrl(index,autoplay);
+ frame.title=(index+1)+'. '+title+' — YouTube';
+ frame.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+ frame.allowFullscreen=true;
+ frame.referrerPolicy='strict-origin-when-cross-origin';
+ frame.loading='eager';
+ episodesMount.append(frame);
+ const link=$('episodeExternalLink');
+ if(link){link.href='https://www.youtube.com/watch?v='+encodeURIComponent(id);link.textContent='ABRIR ESTE CAPÍTULO EN YOUTUBE ↗';}
+ const now=$('episodeNowPlaying');
+ if(now)now.textContent='CAPÍTULO '+String(index+1).padStart(2,'0')+' · '+title;
+}
 if(episodesList){
-  for(const title of episodesTitles){
-    const li=document.createElement('li'); li.textContent=title; episodesList.append(li);
-  }
+ episodesList.replaceChildren();
+ episodes.forEach(([title],index)=>{
+   const li=document.createElement('li');
+   const btn=document.createElement('button');
+   btn.type='button';btn.className='episode-choice';btn.dataset.episode=String(index);
+   btn.textContent=title;
+   btn.setAttribute('aria-label','Ver capítulo '+(index+1)+': '+title);
+   btn.addEventListener('click',()=>selectEpisode(index,true));
+   li.append(btn);episodesList.append(li);
+ });
 }
 if(episodesPanel){
  episodesPanel.addEventListener('toggle',()=>{
-  const open=episodesPanel.open;
-  document.body.classList.toggle('mc-episodes-open',open && activePane==='user');
-  const mount=$('episodesVideoMount');
-  if(!mount) return;
-  mount.replaceChildren();
-  if(open){
-   const frame=document.createElement('iframe');
-   frame.src='https://www.youtube-nocookie.com/embed/videoseries?list=PLmdLOXt-r6Y_Qa1SXtnTxyg8sPMTQoOem&rel=0';
-   frame.title='Mortadelo y Filemón - Lista de reproducción de 26 capítulos';
-   frame.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-   frame.allowFullscreen=true;
-   frame.referrerPolicy='strict-origin-when-cross-origin';
-   frame.loading='lazy';
-   mount.append(frame);
-  }
+   const open=episodesPanel.open;
+   document.body.classList.toggle('mc-episodes-open',open&&activePane==='user');
+   if(!open){episodesMount?.replaceChildren();selectedEpisode=-1;return;}
+   // Al desplegar, comienza por un capítulo aleatorio diferente del último inicial.
+   let index=Math.floor(Math.random()*episodes.length);
+   if(index===previousInitialEpisode)index=(index+1+Math.floor(Math.random()*(episodes.length-1)))%episodes.length;
+   previousInitialEpisode=index;
+   selectEpisode(index,false);
  });
 }
 

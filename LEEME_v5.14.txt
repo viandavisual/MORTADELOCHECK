@@ -1,0 +1,8 @@
+MORTADELO CHECK v5.14 — PATCH DESDE v5.13
+
+Sustituir index.html, app.js, app.css y sw.js en la raíz del repositorio.
+No modifica las portadas, la música, la APK ni las claves privadas.
+
+Los 26 capítulos conservan el orden y los enlaces individuales aportados. Al abrir MIRA LOS CAPÍTULOS, se selecciona uno al azar y se carga sin reproducción automática. Al tocar un título se carga el vídeo y se intenta iniciar su reproducción. YouTube puede impedir la reproducción incrustada de algunos vídeos; en tal caso se ofrece el enlace de ese vídeo para abrirlo en YouTube.
+
+Si se está usando la APK WebView, actualiza los archivos de GitHub Pages: la APK continúa apuntando al mismo sitio.

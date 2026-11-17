@@ -408,3 +408,12 @@ body.mc-progress-active.mc-episodes-open #userPane .illustration-space.compact{m
 /* v5.13: una sola bubble INSTALAR. En Android ofrece la APK firmada; en
    otros sistemas conserva la instalación PWA; en WebView indica INSTALADA. */
 @media(max-width:450px){.progress-bubbles .install-bubble{white-space:nowrap}}
+
+/* v5.14 — capítulos interactivos: botones amplios y episodio activo legible */
+.episodes-list{padding:5px 7px 5px 31px;}
+.episodes-list li{padding:0;border-bottom:1px solid #eee3cd;}
+.episodes-list li::marker{font-weight:900;color:#7e5728;}
+.episode-choice{display:block;width:100%;min-height:36px;text-align:left;border:0;border-radius:6px;background:transparent;color:#302012;padding:8px 7px;font:800 12px/1.35 Nunito,Arial,sans-serif;cursor:pointer;white-space:normal;overflow-wrap:anywhere;}
+.episode-choice:hover,.episode-choice:focus-visible{background:#fff0bb;outline:2px solid #cf9e36;outline-offset:-2px;}
+.episode-choice.selected{background:#f5cf55;color:#21140a;box-shadow:inset 3px 0 #8b4810;}
+.episode-current{font:800 12px/1.4 Nunito,Arial,sans-serif;text-align:center;margin:0 0 9px;color:#614021;overflow-wrap:anywhere;}
