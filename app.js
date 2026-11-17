@@ -491,16 +491,34 @@ $('saveListPng').addEventListener('click',async()=>{
 // INSTALACIÓN PWA: botón visible sin cuentas ni pasos técnicos.
 let deferredInstallPrompt=null;
 let installInProgress=false;
+// Android: descarga de la APK firmada; otros sistemas: instalación PWA habitual.
+// En Android WebView ya estamos dentro de la APK: no ofrecemos reinstalarla.
+const mcUserAgent=navigator.userAgent||'';
+const mcIsAndroid=/Android/i.test(mcUserAgent);
+const mcIsWebView=mcIsAndroid && (/; wv[);]/i.test(mcUserAgent) || /\bVersion\/4\.0.*Chrome\//i.test(mcUserAgent));
+const mcApkUrl=new URL('./downloads/MORTADELO_CHECK.apk',document.baseURI).href;
 const installedNow=()=>window.matchMedia('(display-mode: standalone)').matches ||
                          window.matchMedia('(display-mode: minimal-ui)').matches ||
                          !!window.navigator.standalone;
 function updateInstallButton(){
  const btn=$('installBtn');if(!btn)return;
- const done=installedNow();
+ const done=mcIsWebView || (!mcIsAndroid && installedNow());
  btn.disabled=done;
  btn.classList.toggle('is-installed',done);
- btn.innerHTML=done?'<span aria-hidden="true">✓</span> INSTALADA':'<span aria-hidden="true">⬇</span> INSTALAR';
- btn.setAttribute('aria-label',done?'Aplicación ya instalada':'Instalar MORTADELO CHECK');
+ btn.innerHTML=done?'<span aria-hidden="true">✓</span> INSTALADA':mcIsAndroid?'<span aria-hidden="true">⬇</span> INSTALAR APK':'<span aria-hidden="true">⬇</span> INSTALAR';
+ btn.setAttribute('aria-label',done?'Aplicación ya instalada':mcIsAndroid?'Descargar APK para Android':'Instalar MORTADELO CHECK');
+}
+function downloadMortadeloApk(){
+ // Una navegación directa, disparada por el toque, evita perder la activación
+ // del usuario en navegadores que bloquean las descargas iniciadas después de await.
+ const a=document.createElement('a');
+ a.href=mcApkUrl;
+ a.download='MORTADELO_CHECK.apk';
+ a.rel='noopener';
+ a.style.display='none';
+ document.body.appendChild(a);
+ a.click();
+ a.remove();
 }
 window.addEventListener('beforeinstallprompt',event=>{
  event.preventDefault();
@@ -541,7 +559,16 @@ function showInstallHelp(){
  document.body.style.overflow='hidden';
 }
 $('installBtn').addEventListener('click',async()=>{
- if(installedNow()){updateInstallButton();return;}
+ if(mcIsWebView || (!mcIsAndroid && installedNow())){updateInstallButton();return;}
+ if(mcIsAndroid){
+   if(location.protocol==='file:'){
+     $('installInstructions').textContent='Abre primero MORTADELO CHECK desde su web publicada para descargar la aplicación Android.';
+     $('installOverlay').classList.remove('hidden');
+     return;
+   }
+   downloadMortadeloApk();
+   return;
+ }
  if(deferredInstallPrompt && !installInProgress){
    installInProgress=true;
    try{

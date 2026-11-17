@@ -1,0 +1,20 @@
+MORTADELO CHECK v5.13 — PATCH desde v5.12
+
+CAMBIOS:
+- Eliminado el boton separado APK ANDROID.
+- El boton INSTALAR detecta Android: ofrece descarga directa de la APK firmada.
+- En Android WebView (APK ya instalada), indica INSTALADA.
+- En iPhone y escritorio conserva la instalacion PWA existente.
+- Se mantiene el progreso local; no se modifica el catalogo ni las portadas.
+
+IMPORTANTE: Este parche NO incluye la APK firmada, que se genero en Android Studio.
+Publica el archivo release firmado en:
+  downloads/MORTADELO_CHECK.apk
+El archivo debe llamarse exactamente MORTADELO_CHECK.apk.
+No subas tus claves privadas ni contrasenas al repositorio.
+Si tu proyecto GitHub ya contiene esta ruta, reemplaza solo el archivo APK
+por la release WebView correcta y firmada (no por la antigua APK TWA).
+
+INSTALACION:
+Descomprime este parche sobre la carpeta de la v5.12 y sustituye
+los archivos. El archivo APK firmado se conserva en downloads/.
